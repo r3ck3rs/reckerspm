@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  reckers-website:
+    build: .
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    container_name: reckers-projectmanagement-next
+    environment:
+      - NODE_ENV=production
