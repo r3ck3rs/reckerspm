@@ -5,11 +5,13 @@ import { Toaster } from "sonner";
 
 const inter = Inter({
   subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
-  title: "Peter Reckers - Reckers Projectmanagement",
-  description: "Professionele projectmanagement diensten gespecialiseerd in IT en infrastructuur oplossingen",
+  title: "Peter Reckers - ReckersPM",
+  description: "Digitale transformatie voor kleine bedrijven - van strategie tot educatie",
 };
 
 export default function RootLayout({
@@ -19,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="nl">
-      <body className={`${inter.className} antialiased`}>
+      <body className={`${inter.variable} font-inter antialiased`}>
         {children}
         <Toaster />
       </body>

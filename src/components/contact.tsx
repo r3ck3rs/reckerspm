@@ -37,10 +37,10 @@ export function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 bg-slate-800 text-white">
+    <section id="contact" className="py-20 bg-zinc-900 text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="font-bold mb-6">
             Contact
           </h2>
         </div>
@@ -48,30 +48,30 @@ export function Contact() {
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Information */}
           <div className="space-y-6">
-            <Card className="bg-slate-700 border-slate-600">
+            <Card className="bg-zinc-800 border-zinc-700">
               <CardHeader>
-                <CardTitle className="text-blue-400 text-xl">
+                <CardTitle className="text-zinc-300">
                   Neem Contact Op
                 </CardTitle>
-                <CardDescription className="text-gray-300">
+                <CardDescription className="text-zinc-400">
                   Klaar om uw volgende project te bespreken? Laten we contact maken en ontdekken 
                   hoe ik kan helpen uw IT en infrastructuur initiatieven vooruit te helpen.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="bg-slate-600 p-4 rounded-lg">
+                <div className="bg-zinc-700 p-4 rounded-lg">
                   <p className="font-semibold text-white">Peter Reckers</p>
-                  <p className="text-gray-300">Reckers Projectmanagement</p>
-                  <p className="text-gray-300">Gespecialiseerd in IT & Infrastructuur</p>
+                  <p className="text-zinc-300">Reckers Projectmanagement</p>
+                  <p className="text-zinc-300">Gespecialiseerd in IT & Infrastructuur</p>
                 </div>
               </CardContent>
             </Card>
           </div>
 
           {/* Contact Form */}
-          <Card className="bg-white text-slate-800">
+          <Card className="bg-white text-zinc-900">
             <CardHeader>
-              <CardTitle className="text-xl">
+              <CardTitle>
                 Verstuur een Bericht
               </CardTitle>
             </CardHeader>
@@ -129,7 +129,7 @@ export function Contact() {
 
                 <Button 
                   type="submit" 
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                  className="w-full bg-zinc-900 hover:bg-zinc-800 text-white"
                 >
                   Verstuur Bericht
                 </Button>

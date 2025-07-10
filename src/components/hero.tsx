@@ -11,19 +11,19 @@ export function Hero() {
   }
 
   return (
-    <section id="home" className="bg-gradient-to-br from-blue-600 to-purple-700 text-white py-32 -mt-px">
+    <section id="home" className="bg-zinc-900 text-white py-32 -mt-px">
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            IT & Infrastructuur Projectmanagement
+            Digitale transformatie voor kleine bedrijven
           </h2>
-          <p className="text-xl md:text-2xl mb-8 text-blue-100">
-            Professionele projectmanagement diensten gespecialiseerd in IT en infrastructuur oplossingen
+          <p className="text-xl md:text-2xl mb-8 text-zinc-300">
+            Ik ondersteun eigenaren en directeuren van kleine bedrijven in hun digitale avonturen van strategie tot educatie
           </p>
           <Button 
             onClick={scrollToContact}
             size="lg"
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg transition-colors"
+            className="bg-white hover:bg-zinc-100 text-zinc-900 font-semibold py-3 px-8 rounded-lg transition-colors"
           >
             Aan de Slag
           </Button>
